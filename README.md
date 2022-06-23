@@ -19,7 +19,16 @@ There was a vastness to the data that made it tempting to nitpick. As I made mor
 On top of that, the general overflow of information is difficult to decipher if you’re not careful. Let’s take the above graph. One could assume that it was the percentage of projects that had met their goals. However, one could equally assume that it is the average percent of goals met (i.e., projects with goals less than 5 thousand dollars would only achieve approximately 70% of their goal on average).
 
 ## Results
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
-- What can you conclude about the Outcomes based on Goals?
-- What are some limitations of this dataset?
-- What are some other possible tables and/or graphs that we could create?
+I will make this portion as concise as possible by focusing on answering the following four questions:
+### -	What are two conclusions you can draw about the Outcomes based on Launch Date?
+The months of May through July contain the most successful campaigns while the months of October through December contain the least.
+### -	What can you conclude about the Outcomes based on Goals?
+For a successful campaign, keep the project goal under 5 thousand dollars.
+### -	What are some limitations of this dataset?
+All of the campaigns from the dataset are from 2009 through 2017. More recent data would be appreciated, especially since this data fails to show how the current pandemic would impact the performance of the campaigns.
+A column which explains the sub-subcategory to the projects would be helpful. Not all plays are created equal. Are horror plays more likely to meet their goals than comedies? Do Latin-fusion food trucks pale in comparison to soul food trucks? The descriptions are helpful to humans, but hard for a computer to define and process. This added categorization would have allowed a more in-depth analysis of the types of Kickstarter campaigns people are funding.
+### -	What are some other possible tables and/or graphs that we could create?
+![A bar graph separating projects by their goals and their outcomes.](https://github.com/antdelgado/kickstarter-analysis/blob/master/Count%20Outcomes%20vs%20Goals.png?raw=true)
+The first graph I would add is a bar graph showing the outcomes of projects based on their goals. While the line graph demonstrates the percentage of projects that met their goals, the bar graph shows the absolute number of projects. This additional context helps in explaining why projects in the range of 35 thousand to 45 thousand has a sudden spike in success; because there are so few projects in this range, they can be considered outliers that do not meet the general trend of the data.
+![A stacked bar graph separating projects by their starting month and their outcomes.](https://github.com/antdelgado/kickstarter-analysis/blob/master/Percent%20Theater%20Outcomes%20vs%20Launch.png?raw=true)
+A stacked bar graph demonstrating the percentage of projects that met their goal based on the month they launched would help clarify whether or not the spike in success in May is due to it also being the most popular month to launch a Kickstarter campaign: the answer is not really. While the graph doesn’t show May as successful as the line graph may make it appear, May still remains the most successful month. In addition, it cements December as the least successful month.
