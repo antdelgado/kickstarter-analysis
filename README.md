@@ -19,3 +19,7 @@ There was a vastness to the data that made it tempting to nitpick. As I made mor
 On top of that, the general overflow of information is difficult to decipher if you’re not careful. Let’s take the above graph. One could assume that it was the percentage of projects that had met their goals. However, one could equally assume that it is the average percent of goals met (i.e., projects with goals less than 5 thousand dollars would only achieve approximately 70% of their goal on average).
 
 ## Results
+- What are two conclusions you can draw about the Outcomes based on Launch Date?
+- What can you conclude about the Outcomes based on Goals?
+- What are some limitations of this dataset?
+- What are some other possible tables and/or graphs that we could create?
